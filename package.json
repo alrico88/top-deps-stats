@@ -1,0 +1,32 @@
+{
+  "name": "top-deps-stats",
+  "version": "0.1.0",
+  "description": "CLI script to see which packages do you depend most on",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "index.js",
+  "keywords": [
+    "stats",
+    "dependencies",
+    "npm",
+    "top"
+  ],
+  "author": "Alberto Rico",
+  "license": "MIT",
+  "preferGlobal": true,
+  "dependencies": {
+    "cli-table3": "^0.6.0",
+    "commander": "^8.2.0",
+    "lodash": "^4.17.21",
+    "math-helper-functions": "^2.1.0",
+    "node-read-file-helper": "^1.0.2",
+    "number-helper-functions": "^4.0.0",
+    "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
